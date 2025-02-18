@@ -1,0 +1,25 @@
+#pricing {
+    background-image: 'url("images/pricing/pricing-background.svg")';
+    background-size: cover;
+    background-color: 'rgba(your-svg-color, 0.5)';
+}
+
+.pricing-boxes > div:nth-child(2) div {
+    background-color: #268F3E !important;
+}
+
+.pricing-boxes > div:nth-child(2) div span {
+    background-color: #18181833;
+}
+
+.pricing-boxes > div:nth-child(2) div span.amount, .pricing-boxes > div:nth-child(2) div span.self-or-hosted {
+    background: none;
+}
+
+.pricing-boxes > div:nth-child(2) div span, .pricing-boxes > div:nth-child(2) div p, .pricing-boxes > div:nth-child(2) div h3 {
+    color: #181818;
+}
+
+.pricing-boxes > div:nth-child(2) div button {
+    background-color: #0D0D0D;
+}
