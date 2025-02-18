@@ -39,7 +39,7 @@ const AboutSectionTwo = () => {
                 Scale Without Limits
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                Whether you're a growing startup or an established enterprise, our platform grows with you. Handle ten tickets or ten thousand with the same level of precision and control. Dynamic resource allocation ensures peak performance even during high-demand periods.
+                Whether you&apos;re a growing startup or an established enterprise, our platform grows with you. Handle ten tickets or ten thousand with the same level of precision and control. Dynamic resource allocation ensures peak performance even during high-demand periods.
                 </p>
               </div>
               <div className="mb-1">

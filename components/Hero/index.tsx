@@ -19,7 +19,7 @@ const Hero = () => {
                 </h1>
                 <p className="animate-fade-up animate-duration-[1700ms] dark:text-body-color-dark mb-12 text-base !leading-relaxed text-body-color sm:text-lg md:text-xl">
                   Build better relationships with customers, 
-                  stay on top of customers' inquiries, 
+                  stay on top of customers&apos; inquiries, 
                   increase customer service productivity, 
                   create online routine inquiries, and so much more
                 </p>
