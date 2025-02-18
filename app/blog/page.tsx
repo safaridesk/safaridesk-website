@@ -13,8 +13,8 @@ const Blog = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Blog Grid"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageName="SafariDesk Blog"
+        description="Read to uncover the secrets built within SafariDesk"
       />
 
       <section className="pb-[120px] pt-[120px]">
