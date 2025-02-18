@@ -8,7 +8,7 @@ import  "./pricing.css";
 
 const Pricing = () => {
 
-  const [isSelfHosted, setIsSelfHosted] = useState(true);
+  const [isCloudHosted, setIsCloudHosted] = useState(true);
 
   return (
     <section id="pricing" className="relative z-10 py-16 md:py-20 lg:py-28">
@@ -26,24 +26,24 @@ const Pricing = () => {
             data-wow-delay=".1s"
           >
             <span
-              onClick={() => setIsSelfHosted(true)}
+              onClick={() => setIsCloudHosted(true)}
               className={`${
-                isSelfHosted
+                isCloudHosted
                   ? "pointer-events-none text-primary"
                   : "text-dark dark:text-white"
               } mr-4 cursor-pointer text-base font-semibold`}
             >
-              Self hosted
+              Cloud hosted
             </span>
             <div
-              onClick={() => setIsSelfHosted(!isSelfHosted)}
+              onClick={() => setIsCloudHosted(!isCloudHosted)}
               className="flex cursor-pointer items-center"
             >
               <div className="relative">
                 <div className="h-5 w-14 rounded-full bg-[#3C3C3C] shadow-inner"></div>
                 <div
                   className={`${
-                    isSelfHosted ? "" : "translate-x-full"
+                    isCloudHosted ? "" : "translate-x-full"
                   } shadow-switch-1 absolute left-0 top-[-4px] flex h-7 w-7 items-center justify-center rounded-full bg-primary transition`}
                 >
                   <span className="active h-4 w-4 rounded-full bg-white"></span>
@@ -51,14 +51,14 @@ const Pricing = () => {
               </div>
             </div>
             <span
-              onClick={() => setIsSelfHosted(false)}
+              onClick={() => setIsCloudHosted(false)}
               className={`${
-                isSelfHosted
+                isCloudHosted
                   ? "text-dark dark:text-white"
                   : "pointer-events-none text-primary"
               } ml-4 cursor-pointer text-base font-semibold`}
             >
-              Cloud hosted
+              Self hosted
             </span>
           </div>
         </div>
@@ -67,7 +67,7 @@ const Pricing = () => {
 <div className="lg:[&>*:nth-child(1)]:animate-fade-left lg:[&>*:nth-child(1)]:animate-duration-[1600ms] [&>*:nth-child(1)]:animate-fade-down [&>*:nth-child(1)]:animate-duration-[1600ms] lg:[&>*:nth-child(2)]:animate-fade-down lg:[&>*:nth-child(2)]:animate-duration-[1250ms] [&>*:nth-child(2)]:animate-fade-down [&>*:nth-child(2)]:animate-duration-[1600ms] lg:[&>*:nth-child(3)]:animate-fade-right lg:[&>*:nth-child(3)]:animate-duration-[1600ms] [&>*:nth-child(3)]:animate-fade-down [&>*:nth-child(3)]:animate-duration-[1600ms] pricing-boxes grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           <PricingBox
             packageName="Business"
-            price={isSelfHosted ? "850" : "850/mo/user"}
+            price={isCloudHosted ? "5/mo/agent" : "850"}
             subtitle="For businesses."
           >
             <OfferList text="Service: Mon-Fri (9.00 - 17.00 CET)" status="active" />
@@ -80,7 +80,7 @@ const Pricing = () => {
           </PricingBox>
           <PricingBox
             packageName="Enterprise"
-            price={isSelfHosted ? "1499" : "1499/mo/user"}
+            price={isCloudHosted ? "12/mo/agent" : "1499"}
             subtitle="For enterprises"
           >
             <OfferList text="Initial assessment" status="active" />
@@ -96,7 +96,7 @@ const Pricing = () => {
 
           <PricingBox
             packageName="Corporation"
-            price={isSelfHosted ? "2499" : "2499/mo/user"}
+            price={isCloudHosted ? "20/mo/user" : "2499"}
             subtitle="For corporations"
           >
             <OfferList text="Initial assessment" status="active" />
