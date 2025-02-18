@@ -14,6 +14,19 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "SafariDesk - Ticketing system with AI done right",
   description: "Ticketing system with AI done right",
+  openGraph: {
+    title: 'SafariDesk - Ticketing system with AI done right',
+    description: 'Ticketing system with AI done right',
+    url: 'https://safaridesk.io/',
+    siteName: 'SafariDesk',
+    images: [
+      {
+        url: './og-safari-desk-logo.png',
+        width: 500,
+        height: 500,
+      },
+    ],
+  }
 };
 
 export default function Home() {
