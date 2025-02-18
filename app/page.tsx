@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     siteName: 'SafariDesk',
     images: [
       {
-        url: './og-safari-desk-logo.png',
+        url: 'https://res.cloudinary.com/dpxpjd5fb/image/upload/v1739888916/safari-desk-logo_wki4y9.png',
         width: 500,
         height: 500,
       },
