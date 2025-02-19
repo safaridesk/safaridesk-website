@@ -7,6 +7,19 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Blog | SafariDesk",
   description: "Read to uncover the secrets built within SafariDesk",
+  openGraph: {
+    title: 'SafariDesk Blog - Learn about SafariDesk',
+    description: 'Read to uncover the secrets built within SafariDesk',
+    url: 'https://safaridesk.io/blog/',
+    siteName: 'SafariDesk',
+    images: [
+      {
+        url: 'https://res.cloudinary.com/dpxpjd5fb/image/upload/v1739961248/SafariDesk_main_logo_py6jcr.png',
+        width: 500,
+        height: 500,
+      },
+    ],
+  }
 };
 
 const Blog = () => {
