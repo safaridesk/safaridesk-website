@@ -6,7 +6,7 @@ import "./features.css";
 const Features = () => {
   return (
     <>
-      <section id="features" className="py-16 md:py-20 lg:py-28">
+      <section id="features" className="py-16 mt-[3rem] md:py-20 lg:py-28">
       <div className="background-image" />
       <div className="glass-overlay" />
         <div className="container bg-subtleWhite dark:bg-dark">
