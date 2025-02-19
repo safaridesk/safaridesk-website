@@ -1,4 +1,4 @@
-section#features .container {
+section#features .features-grid-container {
     border-radius: .8rem;
     background-image: url("/images/features/circlesBg.png");
     padding: 4rem 3rem;
