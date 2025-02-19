@@ -5,6 +5,19 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Sign In | Hello, welcome back",
   description: "Sign In to manage your SafariDesk account",
+  openGraph: {
+    title: 'Sign In to Your SafariDesk Account',
+    description: 'Sign In to manage your SafariDesk account',
+    url: 'https://safaridesk.io/signin/',
+    siteName: 'SafariDesk',
+    images: [
+      {
+        url: 'https://res.cloudinary.com/dpxpjd5fb/image/upload/v1739961248/SafariDesk_main_logo_py6jcr.png',
+        width: 500,
+        height: 500,
+      },
+    ],
+  }
 };
 
 const SigninPage = () => {

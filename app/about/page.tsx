@@ -7,6 +7,19 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "About SafariDesk | AI ticketing system for all industries",
   description: "Learn about SafariDesk and our mission to make ticketing easier for all industries",
+  openGraph: {
+    title: 'About SafariDesk - Ticketing system with AI done right',
+    description: 'Read about our journey to sucess with our modern ticketing software.',
+    url: 'https://safaridesk.io/about/',
+    siteName: 'SafariDesk',
+    images: [
+      {
+        url: 'https://res.cloudinary.com/dpxpjd5fb/image/upload/v1739961248/SafariDesk_main_logo_py6jcr.png',
+        width: 500,
+        height: 500,
+      },
+    ],
+  }
 };
 
 const AboutPage = () => {

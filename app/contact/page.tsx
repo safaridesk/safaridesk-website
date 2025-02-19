@@ -4,8 +4,21 @@ import Contact from "@/components/Contact";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact Page | Free Next.js Template for Startup and SaaS",
-  description: "This is Contact Page for Startup Nextjs Template",
+  title: "Contact Us | SafariDesk",
+  description: "Contact our support team if you need help",
+  openGraph: {
+    title: 'Contact SafariDesk',
+    description: 'Contact our support team through this page',
+    url: 'https://safaridesk.io/contact/',
+    siteName: 'SafariDesk',
+    images: [
+      {
+        url: 'https://res.cloudinary.com/dpxpjd5fb/image/upload/v1739961248/SafariDesk_main_logo_py6jcr.png',
+        width: 500,
+        height: 500,
+      },
+    ],
+  }
 };
 
 const ContactPage = () => {

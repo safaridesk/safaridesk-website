@@ -3,8 +3,21 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Sign Up | Join other professionals across all industries using Svannah Desk",
-  description: "Sign up to start using SafariDesk - AI ticketing system for all industries",
+  title: "Sign Up | Join other professionals using SafariDesk",
+  description: "Sign up to start ticketing with SafariDesk",
+  openGraph: {
+    title: 'Sign Up - Join other professionals using SafariDeskt',
+    description: 'Sign up to start ticketing with SafariDesk',
+    url: 'https://safaridesk.io/signup/',
+    siteName: 'SafariDesk',
+    images: [
+      {
+        url: 'https://res.cloudinary.com/dpxpjd5fb/image/upload/v1739961248/SafariDesk_main_logo_py6jcr.png',
+        width: 500,
+        height: 500,
+      },
+    ],
+  }
 };
 
 const SignupPage = () => {

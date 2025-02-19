@@ -72,7 +72,7 @@ const Pricing = () => {
           >
             <OfferList text="Service: Mon-Fri (9.00 - 17.00 CET)" status="active" />
             <OfferList text="Email support" status="active" />
-            <OfferList text="6 hours max. response time" status="active" />
+            <OfferList text={isCloudHosted ? "3 hours max. response time" : "6 hours max. response time"} status="active" />
             <OfferList text="15 service requests" status="active" />
             <OfferList text="Bug escalations" status="active" />
             <OfferList text="Security advisories" status="active" />
