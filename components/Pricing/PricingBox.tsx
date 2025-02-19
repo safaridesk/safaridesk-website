@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const PricingBox = (props: {
-  price: string;
+  price: React.ReactNode;
   packageName: string;
   subtitle: string;
   children: React.ReactNode;
@@ -18,7 +18,7 @@ const PricingBox = (props: {
           <h3 className="price mb-2 text-3xl font-bold text-black dark:text-white">
             $<span className="amount">{price}</span>
           </h3>
-          <h4 className="mb-2 text-xl font-bold text-dark dark:text-white">
+          <h4 className="mb-2 text-l font-bold text-dark dark:text-white">
             {packageName}
           </h4>
         </div>

@@ -12,7 +12,7 @@
     background-color: #18181833;
 }
 
-.pricing-boxes > div:nth-child(2) div span.amount, .pricing-boxes > div:nth-child(2) div span.self-or-hosted {
+.pricing-boxes > div:nth-child(2) div span.amount, .pricing-boxes > div:nth-child(2) div span.amount span, .pricing-boxes > div:nth-child(2) div span.self-or-hosted {
     background: none;
 }
 
