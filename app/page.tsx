@@ -1,14 +1,12 @@
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import Blog from "@/components/Blog";
-import Brands from "@/components/Brands";
 import ScrollUp from "@/components/Common/ScrollUp";
 import Contact from "@/components/Contact";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
-import Video from "@/components/Video";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -21,7 +19,7 @@ export const metadata: Metadata = {
     siteName: 'SafariDesk',
     images: [
       {
-        url: 'https://res.cloudinary.com/dpxpjd5fb/image/upload/v1739888916/safari-desk-logo_wki4y9.png',
+        url: 'https://res.cloudinary.com/dpxpjd5fb/image/upload/v1739961248/SafariDesk_main_logo_py6jcr.png',
         width: 500,
         height: 500,
       },
@@ -35,8 +33,6 @@ export default function Home() {
       <ScrollUp />
       <Hero />
       <Features />
-      {/* <Video />
-      <Brands /> */}
       <AboutSectionOne />
       <AboutSectionTwo />
       <Testimonials />
