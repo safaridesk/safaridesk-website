@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  experimental: {
+    serverComponentsExternalPackages: ['@react-pdf/renderer'],
+  },
   images: {
     domains: ["localhost"],
     remotePatterns: [
@@ -9,6 +12,10 @@ const nextConfig = {
         port: "",
       },
     ],
+  },
+  webpack: (config) => {
+    config.resolve.alias.canvas = false;
+    return config;
   },
 };
 

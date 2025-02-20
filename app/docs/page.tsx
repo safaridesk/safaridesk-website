@@ -1,7 +1,7 @@
 import Breadcrumb from "@/components/Common/Breadcrumb";
-import Contact from "@/components/Contact";
 
 import { Metadata } from "next";
+import PdfViewer from "./pdfViewer";
 
 export const metadata: Metadata = {
   title: "Docs | SafariDesk",
@@ -22,12 +22,14 @@ export const metadata: Metadata = {
 };
 
 const DocsPage = () => {
-  return (
-    <>
-      <Breadcrumb
-        pageName="Docs for SafariDesk"
-        description="Learn how to use SafariDesk"
-      />
+
+    return (
+      <>
+        <Breadcrumb
+          pageName="Docs for SafariDesk"
+          description="Learn how to use SafariDesk"
+        />
+        <PdfViewer />
     </>
   );
 };
