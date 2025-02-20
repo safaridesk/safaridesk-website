@@ -67,7 +67,15 @@ const Pricing = () => {
 <div className="lg:[&>*:nth-child(1)]:animate-fade-left lg:[&>*:nth-child(1)]:animate-duration-[1600ms] [&>*:nth-child(1)]:animate-fade-down [&>*:nth-child(1)]:animate-duration-[1600ms] lg:[&>*:nth-child(2)]:animate-fade-down lg:[&>*:nth-child(2)]:animate-duration-[1250ms] [&>*:nth-child(2)]:animate-fade-down [&>*:nth-child(2)]:animate-duration-[1600ms] lg:[&>*:nth-child(3)]:animate-fade-right lg:[&>*:nth-child(3)]:animate-duration-[1600ms] [&>*:nth-child(3)]:animate-fade-down [&>*:nth-child(3)]:animate-duration-[1600ms] pricing-boxes grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           <PricingBox
             packageName="Business"
-            price={isCloudHosted ? "5/mo/agent" : "850"}
+            price=  
+                {isCloudHosted ? (
+                  <>
+                    5<span className="text-sm font-normal">/mo/agent</span>
+                  </>
+                ) : (
+                  "850"
+                )}  
+            
             subtitle="For businesses."
           >
             <OfferList text="Service: Mon-Fri (9.00 - 17.00 CET)" status="active" />
@@ -80,7 +88,14 @@ const Pricing = () => {
           </PricingBox>
           <PricingBox
             packageName="Enterprise"
-            price={isCloudHosted ? "12/mo/agent" : "1499"}
+            price=  
+                {isCloudHosted ? (
+                  <>
+                    12<span className="text-sm font-normal">/mo/agent</span>
+                  </>
+                ) : (
+                  "1499"
+                )}
             subtitle="For enterprises"
           >
             <OfferList text="Initial assessment" status="active" />
@@ -96,7 +111,14 @@ const Pricing = () => {
 
           <PricingBox
             packageName="Corporation"
-            price={isCloudHosted ? "20/mo/user" : "2499"}
+            price=  
+                {isCloudHosted ? (
+                  <>
+                    20<span className="text-sm font-normal">/mo/agent</span>
+                  </>
+                ) : (
+                  "2499"
+                )}
             subtitle="For corporations"
           >
             <OfferList text="Initial assessment" status="active" />
