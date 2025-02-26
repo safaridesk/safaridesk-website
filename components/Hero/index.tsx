@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const Hero = () => {
@@ -41,6 +42,11 @@ const Hero = () => {
             </div>
           </div>
         </div>
+        <Image
+        alt="SafariDesk hero SVG image"
+        src="/images/hero/wavy-svg-image.svg"
+        width={100}
+        height={50} />
       </section>
     </>
   );
