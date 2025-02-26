@@ -17,7 +17,7 @@ const testimonialData: Testimonial[] = [
     name: "Devid Weilium",
     designation: "Founder @UIdeck",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "SafariDesk has increased my support's team productivity by 60%. I wouldn't dream of anything else. SafariDesk is the way to go.",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
@@ -26,7 +26,7 @@ const testimonialData: Testimonial[] = [
     name: "Lethium Frenci",
     designation: "Founder @Lineicons",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "SafariDesk's AI features combine to become everything you want it to be. I just love it. There's no other way to put it.",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
