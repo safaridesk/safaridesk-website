@@ -16,13 +16,13 @@ const Footer = () => {
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
-                  <Image
-                    src="/images/logo/safari-desk-logo-no-bg.png"
-                    alt="logo"
-                    className="w-full"
-                    width={90}
-                    height={30}
-                  />
+                <Image
+                  src="https://res.cloudinary.com/dpxpjd5fb/image/upload/v1740664923/safaridesk-website-logo_rpvuvg.png"
+                  alt="SafariDesk Logo"
+                  width={180}
+                  height={60}
+                  className="animate-fade-right animate-duration-1000"
+                />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
                   Build better relationships with customers by making them

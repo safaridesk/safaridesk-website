@@ -59,8 +59,8 @@ const Header = () => {
                  <Image
                   src="https://res.cloudinary.com/dpxpjd5fb/image/upload/v1740664923/safaridesk-website-logo_rpvuvg.png"
                   alt="SafariDesk Logo"
-                  width={115}
-                  height={35}
+                  width={180}
+                  height={60}
                   className="animate-fade-right animate-duration-1000"
                 />
                 {/*<Image
