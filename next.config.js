@@ -4,7 +4,7 @@ const nextConfig = {
     serverComponentsExternalPackages: ['@react-pdf/renderer'],
   },
   images: {
-    domains: ["localhost"],
+    domains: ["localhost", "res.cloudinary.com"],
     remotePatterns: [
       {
         protocol: "https",
