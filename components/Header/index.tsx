@@ -59,8 +59,8 @@ const Header = () => {
                  <Image
                   src="/images/logo/safaridesk-website-logo-no-bg.png"
                   alt="SafariDesk Logo"
-                  width={99}
-                  height={30}
+                  width={115}
+                  height={35}
                   className="animate-fade-right animate-duration-1000"
                 />
                 {/*<Image
