@@ -57,7 +57,7 @@ const Header = () => {
                 } `}
               >
                  <Image
-                  src="/images/logo/safaridesk-website-logo-no-bg.png"
+                  src="https://res.cloudinary.com/dpxpjd5fb/image/upload/v1740664923/safaridesk-website-logo_rpvuvg.png"
                   alt="SafariDesk Logo"
                   width={115}
                   height={35}
