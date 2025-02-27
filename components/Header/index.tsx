@@ -57,7 +57,7 @@ const Header = () => {
                 } `}
               >
                  <Image
-                  src="/images/logo/safari-desk-logo-no-bg.png"
+                  src="/images/logo/safarides-website-logo-no-bg.png"
                   alt="SafariDesk Logo"
                   width={99}
                   height={30}
