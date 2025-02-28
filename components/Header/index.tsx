@@ -160,7 +160,7 @@ const Header = () => {
                     ))}
                   </ul>
 
-                  <div className="flex flex-row gap-3 align-middle">
+                  <div className="flex flex-row gap-3 align-middle lg:hidden">
                   <Link 
                     className="navbar-social-link" 
                     href="https://www.linkedin.com/company/safaridesk-ticketing/"
