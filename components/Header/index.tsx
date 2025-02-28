@@ -164,8 +164,11 @@ const Header = () => {
                   </ul>
                 </nav>
 
-                
-                  <FaLinkedinIn />
+                <div className="flex flex-row gap-1 align-middle">
+                  <Link href="https://www.linkedin.com/company/safaridesk-ticketing/" target="_blank"><FaLinkedinIn /></Link>
+
+                </div>
+                  
                 </div>
 
               </div>
