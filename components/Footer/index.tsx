@@ -19,7 +19,7 @@ const Footer = () => {
                 <Image
                   src="https://res.cloudinary.com/dpxpjd5fb/image/upload/v1740739051/Logo-Icon-only-Green_wadalv.png"
                   alt="SafariDesk Logo"
-                  width={180}
+                  width={100}
                   height={60}
                   className="animate-fade-right animate-duration-1000"
                 />
