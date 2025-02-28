@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
-import { FaLinkedinIn } from "react-icons/fa6";
+import { FaLinkedinIn, FaX } from "react-icons/fa6";
 import "./header.css";
 
 const Header = () => {
@@ -165,12 +165,19 @@ const Header = () => {
                   </ul>
                 </nav>
 
-                <div className="flex flex-row gap-1 align-middle">
+                <div className="flex flex-row gap-3 align-middle">
                   <Link 
                     className="navbar-social-link" 
                     href="https://www.linkedin.com/company/safaridesk-ticketing/"
                     target="_blank">
                     <FaLinkedinIn />
+                  </Link>
+
+                  <Link 
+                    className="navbar-social-link" 
+                    href="https://x.com/ticketing_sd?s=21&t=uSyZfTP9_xXnl9jl27mQLQ"
+                    target="_blank">
+                    <FaX />
                   </Link>
 
                 </div>

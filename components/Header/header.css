@@ -1,21 +1,21 @@
 div .navbar-social-link {
-    padding: 1rem;
+    padding: .75rem;
     border-radius: 50%;
   background: rgba(60, 60, 60, 0.2);
   background: -moz-linear-gradient(
     -135deg,
     rgba(60, 60, 60, 1) 0%,
-    rgba(24, 24, 24, 1) 90%
+    rgba(24, 24, 24, 1) 80%
   );
   background: -webkit-linear-gradient(
     -135deg,
     rgba(60, 60, 60, 1) 0%,
-    rgba(24, 24, 24, 1) 90%
+    rgba(24, 24, 24, 1) 80%
   );
   background: linear-gradient(
     -135deg,
     rgba(60, 60, 60, 1) 0%,
-    rgba(24, 24, 24, 1) 90%
+    rgba(24, 24, 24, 1) 80%
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3c3c3c",endColorstr="#181818",GradientType=1);
 }
