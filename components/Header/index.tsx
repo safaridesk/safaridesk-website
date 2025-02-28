@@ -166,7 +166,12 @@ const Header = () => {
                 </nav>
 
                 <div className="flex flex-row gap-1 align-middle">
-                  <Link className="navbar-social-link" href="https://www.linkedin.com/company/safaridesk-ticketing/" target="_blank"><FaLinkedinIn /></Link>
+                  <Link 
+                    className="navbar-social-link" 
+                    href="https://www.linkedin.com/company/safaridesk-ticketing/"
+                    target="_blank">
+                    <FaLinkedinIn />
+                  </Link>
 
                 </div>
                   
