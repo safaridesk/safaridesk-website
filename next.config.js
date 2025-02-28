@@ -4,11 +4,10 @@ const nextConfig = {
     serverComponentsExternalPackages: ['@react-pdf/renderer'],
   },
   images: {
-    domains: ["localhost", "res.cloudinary.com"],
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "cdn.sanity.io",
+        hostname: "res.cloudinary.com",
         port: "",
       },
     ],
