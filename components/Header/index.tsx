@@ -5,6 +5,8 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
+import { FaLinkedinIn, FaXTwitter } from "react-icons/fa6";
+import "./header.css";
 
 const Header = () => {
   // Navbar toggle
@@ -96,13 +98,18 @@ const Header = () => {
                     }`}
                   />
                 </button>
-                <nav
-                  id="navbarCollapse"
-                  className={`animate-fade-down animate-duration-1000 navbar absolute right-0 z-30 w-[250px] rounded border-[.5px] border-body-color/50 bg-white px-6 py-4 duration-300 dark:border-body-color/20 dark:bg-dark lg:visible lg:static lg:w-auto lg:border-none lg:!bg-transparent lg:p-0 lg:opacity-100 ${
-                    navbarOpen
-                      ? "visibility top-full h-screen opacity-100"
-                      : "invisible top-[120%] opacity-0"
-                  }`}
+
+                <div
+                id="navbarCollapse"
+                className={`flex flex-col animate-fade-down animate-duration-1000 navbar absolute right-0 z-30 w-[250px] rounded border-[.5px] border-body-color/50 bg-white px-6 py-4 dark:border-body-color/20 dark:bg-dark lg:visible lg:static lg:w-auto lg:border-none lg:!bg-transparent lg:p-0 lg:opacity-100 ${
+                  navbarOpen
+                    ? "visibility top-full h-screen opacity-100"
+                    : "invisible top-[120%] opacity-0"
+                }`}>
+
+                
+                  <nav
+                  className={`navbar right-0 z-30 w-full border-body-color/50 py-4 dark:border-body-color/20 dark:bg-dark lg:visible lg:static lg:w-auto lg:border-none lg:!bg-transparent lg:p-0 lg:opacity-100`}
                 >
                   <ul className="block lg:flex lg:space-x-12">
                     {menuData.map((menuItem, index) => (
@@ -157,6 +164,26 @@ const Header = () => {
                     ))}
                   </ul>
                 </nav>
+
+                <div className="flex flex-row gap-3 align-middle">
+                  <Link 
+                    className="navbar-social-link" 
+                    href="https://www.linkedin.com/company/safaridesk-ticketing/"
+                    target="_blank">
+                    <FaLinkedinIn />
+                  </Link>
+
+                  <Link 
+                    className="navbar-social-link" 
+                    href="https://x.com/ticketing_sd?s=21&t=uSyZfTP9_xXnl9jl27mQLQ"
+                    target="_blank">
+                    <FaXTwitter />
+                  </Link>
+
+                </div>
+                  
+                </div>
+
               </div>
               <div className="flex items-center justify-end pr-16 lg:pr-0">
                 <Link
