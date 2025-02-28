@@ -57,10 +57,10 @@ const Header = () => {
                 } `}
               >
                  <Image
-                  src="https://res.cloudinary.com/dpxpjd5fb/image/upload/v1740664923/safaridesk-website-logo_rpvuvg.png"
+                  src="https://res.cloudinary.com/dpxpjd5fb/image/upload/v1740739051/Logo-Icon-only-Green_wadalv.png"
                   alt="SafariDesk Logo"
-                  width={180}
-                  height={60}
+                  width={84}
+                  height={28}
                   className="animate-fade-right animate-duration-1000"
                 />
                 {/*<Image
@@ -100,7 +100,7 @@ const Header = () => {
                   id="navbarCollapse"
                   className={`animate-fade-down animate-duration-1000 navbar absolute right-0 z-30 w-[250px] rounded border-[.5px] border-body-color/50 bg-white px-6 py-4 duration-300 dark:border-body-color/20 dark:bg-dark lg:visible lg:static lg:w-auto lg:border-none lg:!bg-transparent lg:p-0 lg:opacity-100 ${
                     navbarOpen
-                      ? "visibility top-full opacity-100"
+                      ? "visibility top-full h-screen opacity-100"
                       : "invisible top-[120%] opacity-0"
                   }`}
                 >
