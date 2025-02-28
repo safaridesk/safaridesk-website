@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
+import { FaLinkedinIn } from "react-icons/fa6";
 
 const Header = () => {
   // Navbar toggle
@@ -96,13 +97,18 @@ const Header = () => {
                     }`}
                   />
                 </button>
-                <nav
-                  id="navbarCollapse"
-                  className={`animate-fade-down animate-duration-1000 navbar absolute right-0 z-30 w-[250px] rounded border-[.5px] border-body-color/50 bg-white px-6 py-4 duration-300 dark:border-body-color/20 dark:bg-dark lg:visible lg:static lg:w-auto lg:border-none lg:!bg-transparent lg:p-0 lg:opacity-100 ${
-                    navbarOpen
-                      ? "visibility top-full h-screen opacity-100"
-                      : "invisible top-[120%] opacity-0"
-                  }`}
+
+                <div
+                id="navbarCollapse"
+                className={`animate-fade-down animate-duration-1000 navbar absolute right-0 z-30 w-[250px] rounded border-[.5px] border-body-color/50 bg-white px-6 py-4 duration-300 dark:border-body-color/20 dark:bg-dark lg:visible lg:static lg:w-auto lg:border-none lg:!bg-transparent lg:p-0 lg:opacity-100 ${
+                  navbarOpen
+                    ? "visibility top-full h-screen opacity-100"
+                    : "invisible top-[120%] opacity-0"
+                }`}>
+
+                
+                  <nav
+                  className={`animate-fade-down animate-duration-1000 navbar absolute right-0 z-30 w-[250px] rounded border-[.5px] border-body-color/50 bg-white px-6 py-4 duration-300 dark:border-body-color/20 dark:bg-dark lg:visible lg:static lg:w-auto lg:border-none lg:!bg-transparent lg:p-0 lg:opacity-100`}
                 >
                   <ul className="block lg:flex lg:space-x-12">
                     {menuData.map((menuItem, index) => (
@@ -157,6 +163,11 @@ const Header = () => {
                     ))}
                   </ul>
                 </nav>
+
+                
+                  <FaLinkedinIn />
+                </div>
+
               </div>
               <div className="flex items-center justify-end pr-16 lg:pr-0">
                 <Link
