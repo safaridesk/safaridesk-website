@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
 import { FaLinkedinIn } from "react-icons/fa6";
+import "./header.css";
 
 const Header = () => {
   // Navbar toggle
@@ -165,7 +166,7 @@ const Header = () => {
                 </nav>
 
                 <div className="flex flex-row gap-1 align-middle">
-                  <Link href="https://www.linkedin.com/company/safaridesk-ticketing/" target="_blank"><FaLinkedinIn /></Link>
+                  <Link className="navbar-social-links" href="https://www.linkedin.com/company/safaridesk-ticketing/" target="_blank"><FaLinkedinIn /></Link>
 
                 </div>
                   
