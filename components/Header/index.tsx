@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
-import { FaLinkedinIn, FaX } from "react-icons/fa6";
+import { FaLinkedinIn, FaXTwitter } from "react-icons/fa6";
 import "./header.css";
 
 const Header = () => {
@@ -177,7 +177,7 @@ const Header = () => {
                     className="navbar-social-link" 
                     href="https://x.com/ticketing_sd?s=21&t=uSyZfTP9_xXnl9jl27mQLQ"
                     target="_blank">
-                    <FaX />
+                    <FaXTwitter />
                   </Link>
 
                 </div>
