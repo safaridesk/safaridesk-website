@@ -8,7 +8,7 @@ const Features = () => {
     <>
       <section id="features" className="py-16 mt-[3rem] md:py-20 lg:py-28">
         <div className="container bg-subtleWhite dark:bg-[transparent]">
-          <div className=" flex flex-col features-section-title-container">
+          <div className=" flex flex-col pt-6 features-section-title-container">
           <h6 className="text-center text-primary justify-center">SafariDesk</h6>
           <SectionTitle
             title="What we offer"
