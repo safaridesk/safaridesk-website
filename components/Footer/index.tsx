@@ -17,10 +17,10 @@ const Footer = () => {
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
                 <Image
-                  src="https://res.cloudinary.com/dpxpjd5fb/image/upload/v1740739051/Logo-Icon-only-Green_wadalv.png"
+                  src="/images/logo/safaridesk-logo-green.png"
                   alt="SafariDesk Logo"
                   width={100}
-                  height={60}
+                  height={120}
                   className="animate-fade-right animate-duration-1000"
                 />
                 </Link>
