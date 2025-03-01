@@ -19,8 +19,8 @@ const Footer = () => {
                 <Image
                   src="/images/logo/safaridesk-logo-green.png"
                   alt="SafariDesk Logo"
-                  width={100}
-                  height={120}
+                  width={190}
+                  height={190}
                   className="animate-fade-right animate-duration-1000"
                 />
                 </Link>
