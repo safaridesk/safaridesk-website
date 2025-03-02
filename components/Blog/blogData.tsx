@@ -19,7 +19,7 @@ const blogData: Blog[] = [
     id: 2,
     title: "9 simple ways to improve your design skills",
     paragraph:
-      "Being in te design industry is like being in a long thread ball. You have to focus on yourself to get outside.",
+      "Being in te design industry is like being in a long thread ball. You have to focus on your skills to get outside.",
     image: "/images/blog/blog-02.jpg",
     author: {
       name: "Musharof Chy",
