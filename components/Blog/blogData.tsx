@@ -33,7 +33,7 @@ const blogData: Blog[] = [
     id: 3,
     title: "Tips to quickly improve your coding speed.",
     paragraph:
-      "Does coding make you fater at typing or does typing make you a better coder? Let's find out how to improve your coding speed today.",
+      "Does coding make you fater at typing or does typing make you a better coder? Let's improve your coding speed today.",
     image: "/images/blog/blog-03.jpg",
     author: {
       name: "Lethium Deo",
