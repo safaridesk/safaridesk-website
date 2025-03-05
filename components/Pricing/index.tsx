@@ -112,7 +112,7 @@ const Pricing = () => {
           ) : (
             <PricingBox
               packageName="Self Hosted"
-              price="2499"
+              price="499"
               subtitle="Enterprise Solution"
             >
               <OfferList text="Initial assessment" status="active" />
