@@ -14,13 +14,13 @@ const AboutSectionTwo = () => {
                 src="https://res.cloudinary.com/dpxpjd5fb/image/upload/v1741198644/safaridesk-infographic-two_s6dtq3.png"
                 alt="about image"
                 fill
-                className="drop-shadow-three dark:hidden dark:drop-shadow-none"
+                className="animate-flip-up drop-shadow-three animate-duration-[1600ms] dark:hidden dark:drop-shadow-none"
               />
               <Image
                 src="https://res.cloudinary.com/dpxpjd5fb/image/upload/v1741198644/safaridesk-infographic-two_s6dtq3.png"
                 alt="about image"
                 fill
-                className="drop-shadow-three hidden dark:block dark:drop-shadow-none"
+                className="animate-flip-up drop-shadow-three animate-duration-[1600ms] hidden dark:block dark:drop-shadow-none"
               />
             </div>
           </div>
