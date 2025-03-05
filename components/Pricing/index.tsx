@@ -61,9 +61,9 @@ const Pricing = () => {
           </div>
         </div>
 
-        <div className="pricing-boxes grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3 [&>*:nth-child(1)]:animate-fade-down [&>*:nth-child(1)]:animate-duration-[1600ms] lg:[&>*:nth-child(1)]:animate-fade-left lg:[&>*:nth-child(1)]:animate-duration-[1600ms] [&>*:nth-child(2)]:animate-fade-down [&>*:nth-child(2)]:animate-duration-[1600ms] lg:[&>*:nth-child(2)]:animate-fade-down lg:[&>*:nth-child(2)]:animate-duration-[1250ms] [&>*:nth-child(3)]:animate-fade-down [&>*:nth-child(3)]:animate-duration-[1600ms] lg:[&>*:nth-child(3)]:animate-fade-right lg:[&>*:nth-child(3)]:animate-duration-[1600ms]">
+        
           {isCloudHosted ? (
-            <>
+            <div className="pricing-boxes grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3 [&>*:nth-child(1)]:animate-fade-down [&>*:nth-child(1)]:animate-duration-[1600ms] lg:[&>*:nth-child(1)]:animate-fade-left lg:[&>*:nth-child(1)]:animate-duration-[1600ms] [&>*:nth-child(2)]:animate-fade-down [&>*:nth-child(2)]:animate-duration-[1600ms] lg:[&>*:nth-child(2)]:animate-fade-down lg:[&>*:nth-child(2)]:animate-duration-[1250ms] [&>*:nth-child(3)]:animate-fade-down [&>*:nth-child(3)]:animate-duration-[1600ms] lg:[&>*:nth-child(3)]:animate-fade-right lg:[&>*:nth-child(3)]:animate-duration-[1600ms]">
               <PricingBox
                 packageName="Business"
                 price={<>5<span className="text-sm font-normal">/mo/agent</span></>}
@@ -108,25 +108,28 @@ const Pricing = () => {
                 <OfferList text="10% discount on additional services" status="active" />
                 <OfferList text="Contact sales" status="active" />
               </PricingBox>
-            </>
+            </div>
           ) : (
-            <PricingBox
-              packageName="Self Hosted"
-              price="499"
-              subtitle="Enterprise Solution"
-            >
-              <OfferList text="Initial assessment" status="active" />
-              <OfferList text="Service: Mon-Fri (8.00 - 20.00 CET)" status="active" />
-              <OfferList text="Email and phone support" status="active" />
-              <OfferList text="6 hours max. response time" status="active" />
-              <OfferList text="95 service requests" status="active" />
-              <OfferList text="Bug escalations" status="active" />
-              <OfferList text="Security advisories" status="active" />
-              <OfferList text="10% discount on additional services" status="active" />
-              <OfferList text="Contact sales" status="active" />
-            </PricingBox>
+            <div className="flex justify-center w-full [&>*:nth-child(1)]:animate-fade-down [&>*:nth-child(1)]:animate-duration-[1600ms] lg:[&>*:nth-child(1)]:animate-fade-down lg:[&>*:nth-child(1)]:animate-duration-[1600ms]">
+              <div className="max-w-[424px] w-full">
+                <PricingBox
+                  packageName="Self Hosted"
+                  price="2499"
+                  subtitle="Enterprise Solution"
+                >
+                  <OfferList text="Initial assessment" status="active" />
+                  <OfferList text="Service: Mon-Fri (8.00 - 20.00 CET)" status="active" />
+                  <OfferList text="Email and phone support" status="active" />
+                  <OfferList text="6 hours max. response time" status="active" />
+                  <OfferList text="95 service requests" status="active" />
+                  <OfferList text="Bug escalations" status="active" />
+                  <OfferList text="Security advisories" status="active" />
+                  <OfferList text="10% discount on additional services" status="active" />
+                  <OfferList text="Contact sales" status="active" />
+                </PricingBox>
+              </div>
+            </div>
           )}
-        </div>
       </div>
 
       <div className="absolute bottom-0 left-0 z-[-1]"></div>
