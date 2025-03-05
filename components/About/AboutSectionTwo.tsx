@@ -11,13 +11,13 @@ const AboutSectionTwo = () => {
               data-wow-delay=".15s"
             >
               <Image
-                src="/images/about/about-image-2.svg"
+                src="https://res.cloudinary.com/dpxpjd5fb/image/upload/v1741198644/safaridesk-infographic-two_s6dtq3.png"
                 alt="about image"
                 fill
                 className="drop-shadow-three dark:hidden dark:drop-shadow-none"
               />
               <Image
-                src="/images/about/about-image-2-dark.svg"
+                src="https://res.cloudinary.com/dpxpjd5fb/image/upload/v1741198644/safaridesk-infographic-two_s6dtq3.png"
                 alt="about image"
                 fill
                 className="drop-shadow-three hidden dark:block dark:drop-shadow-none"
