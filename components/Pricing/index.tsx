@@ -62,98 +62,70 @@ const Pricing = () => {
         </div>
 
         <div className="pricing-boxes grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3 [&>*:nth-child(1)]:animate-fade-down [&>*:nth-child(1)]:animate-duration-[1600ms] lg:[&>*:nth-child(1)]:animate-fade-left lg:[&>*:nth-child(1)]:animate-duration-[1600ms] [&>*:nth-child(2)]:animate-fade-down [&>*:nth-child(2)]:animate-duration-[1600ms] lg:[&>*:nth-child(2)]:animate-fade-down lg:[&>*:nth-child(2)]:animate-duration-[1250ms] [&>*:nth-child(3)]:animate-fade-down [&>*:nth-child(3)]:animate-duration-[1600ms] lg:[&>*:nth-child(3)]:animate-fade-right lg:[&>*:nth-child(3)]:animate-duration-[1600ms]">
-          <PricingBox
-            packageName="Business"
-            price={
-              isCloudHosted ? (
-                <>
-                  5<span className="text-sm font-normal">/mo/agent</span>
-                </>
-              ) : (
-                "850"
-              )
-            }
-            subtitle="For businesses."
-          >
-            <OfferList
-              text="Service: Mon-Fri (9.00 - 17.00 CET)"
-              status="active"
-            />
-            <OfferList text="Email support" status="active" />
-            <OfferList
-              text={
-                isCloudHosted
-                  ? "3 hours max. response time"
-                  : "6 hours max. response time"
-              }
-              status="active"
-            />
-            <OfferList text="15 service requests" status="active" />
-            <OfferList text="Bug escalations" status="active" />
-            <OfferList text="Security advisories" status="active" />
-          </PricingBox>
-          <PricingBox
-            packageName="Enterprise"
-            price={
-              isCloudHosted ? (
-                <>
-                  12<span className="text-sm font-normal">/mo/agent</span>
-                </>
-              ) : (
-                "1499"
-              )
-            }
-            subtitle="For enterprises"
-          >
-            <OfferList text="Initial assessment" status="active" />
-            <OfferList
-              text="Service: Mon-Fri (8.00 - 18.00 CET)"
-              status="active"
-            />
-            <OfferList text="Email and phone support" status="active" />
-            <OfferList text="4 hours max. response time" status="active" />
-            <OfferList text="45 service requests" status="active" />
-            <OfferList text="Bug escalations" status="active" />
-            <OfferList text="Security advisories" status="active" />
-            <OfferList
-              text="5% discount on additional services"
-              status="active"
-            />
-          </PricingBox>
+          {isCloudHosted ? (
+            <>
+              <PricingBox
+                packageName="Business"
+                price={<>5<span className="text-sm font-normal">/mo/agent</span></>}
+                subtitle="For businesses."
+              >
+                <OfferList text="Service: Mon-Fri (9.00 - 17.00 CET)" status="active" />
+                <OfferList text="Email support" status="active" />
+                <OfferList text="3 hours max. response time" status="active" />
+                <OfferList text="15 service requests" status="active" />
+                <OfferList text="Bug escalations" status="active" />
+                <OfferList text="Security advisories" status="active" />
+              </PricingBox>
 
-          <PricingBox
-            packageName="Corporation"
-            price={
-              isCloudHosted ? (
-                <>
-                  20<span className="text-sm font-normal">/mo/agent</span>
-                </>
-              ) : (
-                "2499"
-              )
-            }
-            subtitle="For corporations"
-          >
-            <OfferList text="Initial assessment" status="active" />
-            <OfferList
-              text="Service: Mon-Fri (8.00 - 20.00 CET)"
-              status="active"
-            />
-            <OfferList text="Email and phone support" status="active" />
-            <OfferList text="2 hours max. response time" status="active" />
-            <OfferList text="95 service requests" status="active" />
-            <OfferList text="Bug escalations" status="active" />
-            <OfferList
-              text="Patch level, minor release, and security patch updates"
-              status="active"
-            />
-            <OfferList text="Security advisories" status="active" />
-            <OfferList
-              text="10% discount on additional services"
-              status="active"
-            />
-            <OfferList text="Contact sales" status="active" />
-          </PricingBox>
+              <PricingBox
+                packageName="Enterprise"
+                price={<>12<span className="text-sm font-normal">/mo/agent</span></>}
+                subtitle="For enterprises"
+              >
+                <OfferList text="Initial assessment" status="active" />
+                <OfferList text="Service: Mon-Fri (8.00 - 18.00 CET)" status="active" />
+                <OfferList text="Email and phone support" status="active" />
+                <OfferList text="4 hours max. response time" status="active" />
+                <OfferList text="45 service requests" status="active" />
+                <OfferList text="Bug escalations" status="active" />
+                <OfferList text="Security advisories" status="active" />
+                <OfferList text="5% discount on additional services" status="active" />
+              </PricingBox>
+
+              <PricingBox
+                packageName="Corporation"
+                price={<>20<span className="text-sm font-normal">/mo/agent</span></>}
+                subtitle="For corporations"
+              >
+                <OfferList text="Initial assessment" status="active" />
+                <OfferList text="Service: Mon-Fri (8.00 - 20.00 CET)" status="active" />
+                <OfferList text="Email and phone support" status="active" />
+                <OfferList text="2 hours max. response time" status="active" />
+                <OfferList text="95 service requests" status="active" />
+                <OfferList text="Bug escalations" status="active" />
+                <OfferList text="Patch level, minor release, and security patch updates" status="active" />
+                <OfferList text="Security advisories" status="active" />
+                <OfferList text="10% discount on additional services" status="active" />
+                <OfferList text="Contact sales" status="active" />
+              </PricingBox>
+            </>
+          ) : (
+            <PricingBox
+              packageName="Self Hosted"
+              price="499"
+              subtitle="Enterprise Solution"
+            >
+              <OfferList text="Initial assessment" status="active" />
+              <OfferList text="Service: Mon-Fri (8.00 - 20.00 CET)" status="active" />
+              <OfferList text="Email and phone support" status="active" />
+              <OfferList text="6 hours max. response time" status="active" />
+              <OfferList text="95 service requests" status="active" />
+              <OfferList text="Bug escalations" status="active" />
+              <OfferList text="Security advisories" status="active" />
+              <OfferList text="10% discount on additional services" status="active" />
+              <OfferList text="Contact sales" status="active" />
+            </PricingBox>
+          )}
         </div>
       </div>
 
