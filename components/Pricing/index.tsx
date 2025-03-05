@@ -114,7 +114,7 @@ const Pricing = () => {
               <div className="max-w-[424px] w-full">
                 <PricingBox
                   packageName="Self Hosted"
-                  price="2499"
+                  price="999"
                   subtitle="Enterprise Solution"
                 >
                   <OfferList text="Initial assessment" status="active" />
