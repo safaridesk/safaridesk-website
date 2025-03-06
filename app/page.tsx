@@ -9,11 +9,11 @@ import Testimonials from "@/components/Testimonials";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "SafariDesk - Ticketing system with AI done right",
-  description: "Ticketing system with AI done right",
+  title: "SafariDesk",
+  description: "A simple ticketing system that clicks with everyone, elevating your customer experience",
   openGraph: {
-    title: 'SafariDesk - Ticketing system with AI done right',
-    description: 'Ticketing system with AI done right',
+    title: 'SafariDesk',
+    description: 'A simple ticketing system that clicks with everyone, elevating your customer experience',
     url: 'https://safaridesk.io/',
     siteName: 'SafariDesk',
     images: [
