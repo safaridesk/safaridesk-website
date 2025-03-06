@@ -1,0 +1,5 @@
+img.lightImageOne, img.darkImageOne {
+    object-fit: contain;
+    height: min-content;
+    width: min-content;
+}

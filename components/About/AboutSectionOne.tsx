@@ -1,5 +1,6 @@
 import Image from "next/image";
 import SectionTitle from "../Common/SectionTitle";
+import "./about.css";
 
 const checkIcon = (
   <svg width="16" height="13" viewBox="0 0 16 13" className="fill-current">
@@ -61,14 +62,18 @@ const AboutSectionOne = () => {
                 <Image
                   src="https://res.cloudinary.com/dpxpjd5fb/image/upload/v1741197805/safaridesk-infographic-one_sypys5.png"
                   alt="about-image"
-                  fill
-                  className="mx-auto h-8/10 min-w-full animate-flip-up drop-shadow-three animate-duration-[1600ms] dark:hidden dark:drop-shadow-none lg:mr-0"
+                  height={500}
+                  width={500}
+                  fill={false}
+                  className="lightImageOne animate-flip-up drop-shadow-three animate-duration-[1600ms] dark:hidden dark:drop-shadow-none lg:mr-0"
                 />
                 <Image
                   src="https://res.cloudinary.com/dpxpjd5fb/image/upload/v1741197805/safaridesk-infographic-one_sypys5.png"
                   alt="about-image"
-                  fill
-                  className="mx-auto hidden h-8/10 min-w-full animate-flip-up drop-shadow-three animate-duration-[1600ms] dark:block dark:drop-shadow-none lg:mr-0"
+                  height={500}
+                  width={500}
+                  fill={false}
+                  className="darkImageOne animate-flip-up drop-shadow-three animate-duration-[1600ms] dark:block dark:drop-shadow-none lg:mr-0"
                 />
               </div>
             </div>
