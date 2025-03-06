@@ -1,4 +1,5 @@
 import Image from "next/image";
+import "./about.css";
 
 const AboutSectionTwo = () => {
   return (
@@ -13,14 +14,18 @@ const AboutSectionTwo = () => {
               <Image
                 src="https://res.cloudinary.com/dpxpjd5fb/image/upload/v1741198644/safaridesk-infographic-two_s6dtq3.png"
                 alt="about image"
-                fill
-                className="animate-flip-up drop-shadow-three animate-duration-[1600ms] dark:hidden dark:drop-shadow-none"
+                height={500}
+                width={500}
+                fill={false}
+                className="lightImageTwo animate-flip-up drop-shadow-three animate-duration-[1600ms] dark:hidden dark:drop-shadow-none"
               />
               <Image
                 src="https://res.cloudinary.com/dpxpjd5fb/image/upload/v1741198644/safaridesk-infographic-two_s6dtq3.png"
                 alt="about image"
-                fill
-                className="animate-flip-up drop-shadow-three animate-duration-[1600ms] hidden dark:block dark:drop-shadow-none"
+                height={500}
+                width={500}
+                fill={false}
+                className="darkimageTwo animate-flip-up drop-shadow-three animate-duration-[1600ms] hidden dark:block dark:drop-shadow-none"
               />
             </div>
           </div>

@@ -4,7 +4,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Error Page | SafariDesk",
-  description: "This is Error Page for SafariDeske",
+  description: "This is Error Page for SafariDesk",
   openGraph: {
     title: 'Error on the SafariDesk website',
     description: 'You being on this page means you ran into an error.',
