@@ -3,11 +3,11 @@ import "./pricing.css";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "SafariDesk Pricing | Best AI Ticketing System",
-  description: "This is the pricing information for SafariDesk; the best AI ticketing system",
+  title: "SafariDesk Pricing",
+  description: "This is the pricing information for SafariDesk",
   openGraph: {
-    title: 'SafariDesk Pricing - Ticketing system with AI done right',
-    description: 'This is the pricing information for SafariDesk; the best AI ticketing system',
+    title: 'SafariDesk Pricing',
+    description: 'This is the pricing information for SafariDesk',
     url: 'https://safaridesk.io/pricing/',
     siteName: 'SafariDesk',
     images: [
