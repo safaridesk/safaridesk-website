@@ -5,10 +5,10 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About SafariDesk | AI ticketing system for all industries",
+  title: "About SafariDesk",
   description: "Learn about SafariDesk and our mission to make ticketing easier for all industries",
   openGraph: {
-    title: 'About SafariDesk - Ticketing system with AI done right',
+    title: 'About SafariDesk',
     description: 'Read about our journey to sucess with our modern ticketing software.',
     url: 'https://safaridesk.io/about/',
     siteName: 'SafariDesk',
