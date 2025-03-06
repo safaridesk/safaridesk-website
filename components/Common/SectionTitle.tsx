@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const SectionTitle = ({
   title,
   paragraph,
@@ -13,11 +15,20 @@ const SectionTitle = ({
 }) => {
   return (
     <>
+    <div>
+        <Image
+        alt="SafariDesk website mesh accent image"
+        src="/images/mesh-1img.png"
+        fill
+        className="absolute opacity-50 -z-10"
+        />
+      </div>
       <div
         className={`wow fadeInUp w-full ${center ? "mx-auto text-center" : ""}`}
         data-wow-delay=".1s"
         style={{ width: width, marginBottom: mb }}
       >
+        
         <h2 className="animate-fade-up animate-duration-[1600ms] mb-4 text-3xl font-bold !leading-tight text-black dark:text-white sm:text-4xl md:text-[45px]">
           {title}
         </h2>
