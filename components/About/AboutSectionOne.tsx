@@ -73,7 +73,7 @@ const AboutSectionOne = () => {
                   height={500}
                   width={500}
                   fill={false}
-                  className="darkImageOne animate-flip-up drop-shadow-three animate-duration-[1600ms] dark:block dark:drop-shadow-none lg:mr-0"
+                  className="darkImageOne animate-flip-up drop-shadow-three animate-duration-[1600ms] hidden dark:block dark:drop-shadow-none lg:mr-0"
                 />
               </div>
             </div>

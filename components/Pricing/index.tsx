@@ -15,7 +15,7 @@ const Pricing = () => {
           title="Simple and Affordable Pricing"
           paragraph="Whether you can host it yourself or need hosting, we got your back. All prices exclude the legal value-added tax."
           center
-          width="665px"
+          width="100%"
         />
 
         <div className="w-full">
