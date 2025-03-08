@@ -120,14 +120,12 @@ const BlogDetailsPage = () => {
                     SafariDesk is powered to study your ticketing workflow and help you power through busy hours.
                     AI has never felt better than this.
                     <strong className="text-primary dark:text-white">
-                      malesuada
+                    SafariDesk
                     </strong>
-                    proin libero nunc consequat interdum varius. Quam
-                    pellentesque nec nam aliquam sem et tortor consequat.
-                    Pellentesque adipiscing commodo elit at imperdiet.
+                    is your one stop shop for every ticketing system need.
                   </p>
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Semper auctor neque vitae tempus quam pellentesque nec.
+                    Power your support team's workflow with this world-class AI-powered ticketing system.
                     <span className="text-primary underline dark:text-white">
                       Amet dictum sit amet justo
                     </span>
