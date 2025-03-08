@@ -94,7 +94,7 @@ const BlogDetailsPage = () => {
                   </div>
                   <div className="mb-5">
                     <a
-                      href="#0"
+                      href="#"
                       className="inline-flex items-center justify-center rounded-full bg-primary px-4 py-2 text-sm font-semibold text-white"
                     >
                       Design
@@ -103,9 +103,8 @@ const BlogDetailsPage = () => {
                 </div>
                 <div>
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat.
+                    How to design tickets using the new AI powered template maker.
+                    Make your tickets look legit and beautiful.
                   </p>
                   <div className="mb-10 w-full overflow-hidden rounded">
                     <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
@@ -118,10 +117,8 @@ const BlogDetailsPage = () => {
                     </div>
                   </div>
                   <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Quis enim lobortis scelerisque fermentum. Neque
-                    sodales ut etiam sit amet. Ligula ullamcorper
+                    SafariDesk is powered to study your ticketing workflow and help you power through busy hours.
+                    AI has never felt better than this.
                     <strong className="text-primary dark:text-white">
                       malesuada
                     </strong>
