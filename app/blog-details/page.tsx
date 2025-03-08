@@ -125,7 +125,7 @@ const BlogDetailsPage = () => {
                     is your one stop shop for every ticketing system need.
                   </p>
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Power your support team's workflow with this world-class AI-powered ticketing system.
+                    Power your support team&apos;s workflow with this world-class AI-powered ticketing system.
                     <span className="text-primary underline dark:text-white">
                       Amet dictum sit amet justo
                     </span>
